@@ -1,0 +1,29 @@
+{
+	"fields": [
+		{
+			"name": "Date",
+			"title": "Date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "PercentCompletionRate",
+			"title": "Service completion rate in percent",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "PoundsCostPerTransaction",
+			"title": "Cost per transaction in pounds",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
